@@ -26,6 +26,7 @@
     </div>
 
     <div id="section3">
+        
         <p>Nic nie zabija czasu tak jak ksiazka</p>
         <p>(Cesare Pavese)</p>
         <br>

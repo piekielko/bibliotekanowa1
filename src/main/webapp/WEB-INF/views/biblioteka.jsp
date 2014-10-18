@@ -14,64 +14,87 @@
     
     
     
-    <div id="okienka">
+    <div id="section32">
+        <h4>Dodaj nowa ksiazke:</h4>
 	<form:form modelAttribute="ksiazka">
-            <div id="tabela4">
-                
-            <tr>
-                
-		<form:input path="tytul" name="tytul" placeholder="Tytul" requirde="true" />
+           
+           <tr class="w">
+                <td class="d">Tytul</td>  
+           <br>
+                <td class="w"><form:input path="tytul" /></td>
                 <br>
-                <form:errors path="tytul" cssStyle="color: ?#?ff0000?;"/> 
+               <td class="w"><form:errors path="tytul" cssStyle="color: red;"/> </td>
 		<br>
-		<form:input path="opis" name="opis" placeholder="Opis" required="true"/>
+                <td class="d">Opis</td>
                 <br>
-                <form:errors path="opis" cssStyle="color: ?#?ff0000?;"/>
+                <td class="w"><form:input path="opis"  /></td>
+                <br>
+                <td class="w"><form:errors path="opis" cssStyle="color: red;"/></td>
 		<br>
-                <form:input path="imieAutora" name="imieAutora" placeholder="ImieAutora" required="true" />
+                <td class="d">ImieAutora</td>
                 <br>
-                <form:errors path="imieAutora" cssStyle="color: ?#?ff0000?;"/>
+                <td class="w"><form:input path="imieAutora"  /></td>
                 <br>
-		<form:input path="nazwiskoAutora" name="nazwiskoAutora" placeholder="NazwiskoAutora" required="true"/>
+                <td class="w"><form:errors path="imieAutora" cssStyle="color: red;"/></td>
+                <br>
+                <td class="d">NazwiskoAutora</td>
+                <br>
+                <td class="w"><form:input path="nazwiskoAutora"  /></td>
 		<br>
-                <form:errors path="nazwiskoAutora" cssStyle="color: ?#?ff0000?;"/>
+                <td class="w"><form:errors path="nazwiskoAutora" cssStyle="color: red;"/></td>
                 <br>
-                <form:input path="krajPochodzenia" name="krajPochodzenia" placeholder="KrajPochodzenia" required="true"/>
+                <td class="d">KrajPochodzenia</td>
                 <br>
-                <form:errors path="krajPochodzenia" cssStyle="color: ?#?ff0000?;"/>
+                <td class="w"><form:input path="krajPochodzenia"  /></td>
                 <br>
-		<form:input path="ilosc" name="ilosc" placeholder="Ilosc" type="number"/>
+                <td class="w"><form:errors path="krajPochodzenia" cssStyle="color: red;"/></td>
+                <br>
+                <td class="w">Ilosc</td>
+                <br>
+                <td class="w"><form:input path="ilosc" name="ilosc" placeholder="Ilosc" type="number"/></td>
 		<br>
-		<form:input path="kategoria" name="kategoria" placeholder="Kategoria" required="true"/>
                 <br>
-                <form:errors path="kategoria" cssStyle="color: ?#?ff0000?;"/>
+                <td class="w">Kategoria</td>
+                <br>
+                <td class="w"><form:input path="kategoria"  /></td>
+                <br>
+                <td class="w"><form:errors path="kategoria" cssStyle="color: red;"/></td>
 		<br>
              </tr>
              
-            </div>
+            
 		<input type="submit" value="Dodaj" formaction="biblioteka"
 			formmethod="post" />
 
-
+       
 
 	</form:form>
-    </div>
-    <div id="filtr">
+    
+    
 	<form action="biblioteka" method="get">
-		<input type="text" value=".*" name="wyrazenie" ><br> 
+            <br>
+           
+            
+		<input type="text" value=".*" name="wyrazenie" >
+                <br>
+                <br> 
 		<select name="kategoria">
 			<option value="1" >Tytul</option>
+                        <br>
 			<option value="2" >Opis</option>
+                        <br>
 			<option value="7" >Kategoria</option>
-		</select><br>
+		</select>
+                <br>
+                <br>
 		<input type="submit" name="filter" value="Filtruj" >
 		
 	</form>
+    
     </div>
     
-    
     <div id="tabela">
-               <table style="width: 80%">
+               <table style="width: auto">
                       
                       <tr>
                       
@@ -89,12 +112,12 @@
 			<th>Zmie&#324;</th>
                       </tr>
                 
-    </div>
+    
                         
 		      
     
     
-    <div id="tabela1">
+    
        
 		<c:forEach var="ksiazka" items="${biblioteka}">
                     

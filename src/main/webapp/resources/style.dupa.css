@@ -8,7 +8,7 @@ body {
     text-align:center;
     font-variant-caps: normal;
     width: 100%;
-    padding-top: 3px;
+    
 } 
 #subsection1 {
     background-color:#ADD8E6;
@@ -46,5 +46,6 @@ body {
     font-style: italic;
     font-variant: small-caps;
     text-align:center;
-    padding:5px;	
+    padding-bottom: 20px;
+    padding-top: 20px;
 }
