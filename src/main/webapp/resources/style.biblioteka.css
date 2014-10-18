@@ -1,0 +1,20 @@
+
+#tabela {
+       color: black;
+       font-family:verdana;
+       font-size:80%;
+       float: right;
+ }
+ 
+ #tabela tr{
+         background-color: #808080;
+         color: black;
+ }
+ 
+ #tabela th{
+        color: black;
+        padding: 10px;
+        border:1px solid black;
+        text-align: center;
+        line-height:30px;
+ }
