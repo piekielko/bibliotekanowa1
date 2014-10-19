@@ -1,51 +1,32 @@
 body {
-   background-color:#eeeeee; 
+    background-image: url('biblioteka313.jpg');
 }
 
-#section1{
-    background-color:#ADD8E6;
-    color:lightslategrey;
-    text-align:center;
-    font-variant-caps: normal;
-    width: 100%;
-    
-} 
-#subsection1 {
-    background-color:#ADD8E6;
-    color:lightslategrey;
-    text-align:center;
-    font-style: italic;
-    font-variant: small-caps;  
+#section42 {
+     background-color: #ADD8E6;
+     float: left;
+     hight: 90%;
+     width: 10%;
+     font-style: italic;
+     font-variant: small-caps;  
+     padding-left: 50px;
+     padding-right: 55px;
 }
 
-#section2 {
-   background-image: url('biblioteka313.jpg');
-    background-repeat: no-repeat;
-    height: 64%;
-    width:75%;
-    float:right;
- 
-}
-
-#section3 {
-    line-height:30px;
+#section53{
+    float: right;
     background-color:#eeeeee;
-    height:64%;
-    width:18%;
-    float:left;
-    padding:5px;
-    text-align:right;
-    font-style: italic;
-  
-
-}
-#section4 {
-    background-color:#ADD8E6;
-    color:lightslategrey;
-    clear:both;
-    font-style: italic;
+    hight:30%;
+    width: 40%;
+    font-family: italic;
     font-variant: small-caps;
-    text-align:center;
+   
+    padding-right: 20px;
     padding-bottom: 20px;
-    padding-top: 20px;
+    text-align: right;
+}
+
+#section53 h6 {
+    font-family: sans-serif;
+    text-align: right;
 }

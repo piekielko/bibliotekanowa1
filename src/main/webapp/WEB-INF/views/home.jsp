@@ -3,7 +3,7 @@
 <html>
 <head>
 	<title>Home</title>
-        <link href="${pageContext.request.contextPath}/resources/style.dupa.css" rel="stylesheet" type="text/css"/>
+        <link href="${pageContext.request.contextPath}/resources/style.home.css" rel="stylesheet" type="text/css"/>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
         
 </head>
@@ -35,7 +35,7 @@
         <br>
         <ul>
 		<li>
-			<a href="<c:url value="/biblioteka" />" >Wejdz do katalogu</a>
+			<a href="<c:url value="/biblioteka" />" >Wejdz do katalogu ksiazek</a>
                         
 		</li>
                 
